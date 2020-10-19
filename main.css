@@ -1,1 +1,58 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  /* background-color: lightblue; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: none;
+  color: gray;
+}
+
+header {
+  color: white;
+  background-color: dodgerblue;
+  margin: none;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  /* width: 100%; */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header li {
+  margin: 0.5rem;
+  text-decoration: none;
+}
+li:nth-child(1) {
+  font-size: 2rem;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: gray;
+}
+
+.user-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.user-item {
+  flex-grow: 1;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: black;
+}
