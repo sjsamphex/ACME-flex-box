@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -45,14 +46,25 @@ h1 {
 
 .User-Creation-Section {
   display: flex;
+  padding: 1rem;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .Create-User {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
   border: 1px solid gray;
   border-radius: 0.5rem;
   margin: 1rem;
-  padding: 3rem;
-  /* width: 40%; */
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: space-around;
+}
+.user-creation-item {
+  align-content: center;
+  width: 100%;
 }
 
 button {
@@ -92,5 +104,8 @@ button {
   }
   .User-Creation-Section {
     width: 90%;
+  }
+  .Create-User {
+    width: 100%;
   }
 }
