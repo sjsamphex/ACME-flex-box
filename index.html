@@ -21,17 +21,32 @@
   </header>
   <h1>Users</h1>
 
-  <div class="User-Creation Section">
+  <div class="User-Creation-Section">
     <div class="Create-User">
       <h2>Create a User</h2>
+      <label for="name">First Name</label>
+      <input type="text" name="first name" id="firstName" required>
+      <br>
+      <label for="name">Last Name</label>
+      <input type="text" name="first name" id="firstName" required>
+      <br>
+      <label for="dept-select">Department</label>
+
+      <select name="dept" id="dept-select">
+        <option value="">--Please choose an option--</option>
+        <option value="Eng">Engineering</option>
+        <option value="HR">Human Resources</option>
+        <option value="Management">Management</option>
+      </select>
+      <br>
+      <button id="Clear-Button">Clear</button>
+      <button id="Save-Button">Save</button>
 
     </div>
-
-
   </div>
 
 
-  <section class="userlist">
+  <div class="user-list">
     <div class="user-item">
       <h3 class="user-name">User A</h3>
       <p class="user-bio">Some text for the user</p>
@@ -44,7 +59,19 @@
       <h3 class="user-name">User A</h3>
       <p class="user-bio">Some text for the user</p>
     </div>
-  </section>
+    <div class="user-item">
+      <h3 class="user-name">User A</h3>
+      <p class="user-bio">Some text for the user</p>
+    </div>
+    <div class="user-item">
+      <h3 class="user-name">User A</h3>
+      <p class="user-bio">Some text for the user</p>
+    </div>
+    <div class="user-item">
+      <h3 class="user-name">User A</h3>
+      <p class="user-bio">Some text for the user</p>
+    </div>
+  </div>
 
 
 </body>

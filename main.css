@@ -43,16 +43,54 @@ h1 {
   color: gray;
 }
 
+.User-Creation-Section {
+  display: flex;
+  justify-content: center;
+}
+.Create-User {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 3rem;
+  /* width: 40%; */
+}
+
+button {
+  margin: 0.1rem;
+}
+#Save-Button {
+  background-color: dodgerblue;
+  color: white;
+}
+
 .user-list {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .user-item {
-  flex-grow: 1;
+  width: calc(100% / 3 - 2rem);
   border: 1px solid gray;
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
   color: black;
+}
+
+@media (max-width: 600px) {
+  header ul {
+    flex-direction: column;
+  }
+  .user-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .user-item {
+    width: 90%;
+  }
+  .User-Creation-Section {
+    width: 90%;
+  }
 }
