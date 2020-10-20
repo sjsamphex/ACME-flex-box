@@ -12,7 +12,7 @@ body {
 
 header {
   color: white;
-  background-color: dodgerblue;
+  background-color: rgb(10, 89, 168);
   margin: none;
 }
 header ul {
@@ -22,6 +22,7 @@ header ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-inline-start: 0px;
 }
 
 header li {
@@ -69,7 +70,7 @@ button {
   margin: 0.1rem;
 }
 #Save-Button {
-  background-color: dodgerblue;
+  background-color: rgb(10, 89, 168);
   color: white;
 }
 
@@ -100,7 +101,7 @@ button {
     width: 90%;
   }
   .User-Creation-Section {
-    width: 90%;
+    width: 100%;
   }
   .Create-User {
     width: 100%;
