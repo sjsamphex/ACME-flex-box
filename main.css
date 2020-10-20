@@ -7,7 +7,7 @@ body {
   /* background-color: lightblue; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: none;
-  color: gray;
+  color: grey;
 }
 
 header {
@@ -27,21 +27,19 @@ header ul {
 header li {
   margin: 0.5rem;
   text-decoration: none;
+  color: white;
 }
-li:nth-child(1) {
-  font-size: 2rem;
+h1 {
+  color: white;
 }
 
 li:nth-child(2) {
   font-weight: bold;
 }
 
-header li:hover {
+header li:hover,
+header li:focus {
   text-decoration: underline;
-}
-
-h1 {
-  color: gray;
 }
 
 .User-Creation-Section {
@@ -88,7 +86,6 @@ button {
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
-  color: black;
 }
 
 @media (max-width: 600px) {
